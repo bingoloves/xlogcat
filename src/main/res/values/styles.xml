@@ -1,0 +1,10 @@
+<resources>
+    <!--系统默认Spinner样式-->
+    <style name="SpinnerStyle" parent="@style/Widget.AppCompat.Spinner">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:background">@drawable/spinner_bg</item>
+        <item name="android:popupBackground">@drawable/spinner_drop_down_bg</item>
+    </style>
+</resources>
